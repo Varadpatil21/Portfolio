@@ -186,8 +186,8 @@ header .navbar ul li a:hover {
     color: rgb(9, 244, 9);
 }
 .skills{
-    background-color: rgb(246, 73, 162);
-   height: 700px;
+    background-color: rgba(192, 217, 138, 0.313);
+    min-height: 100vh;
 }
 
 .skills h2{
@@ -200,7 +200,7 @@ header .navbar ul li a:hover {
     width: 50%;
     margin:90px 33px 32px 464px;
     height: 50%;
-    background-color: rgb(241, 0, 148);
+    background-color:rgba(249, 245, 125, 0.575);
     border-radius: 10px;
 }
 
@@ -209,4 +209,19 @@ header .navbar ul li a:hover {
     background-color: pink;
     margin: 20px 20px;
     border-radius: 10px;
+}
+.skillimg{
+    height: 55px;
+    width: 50px;
+
+}
+
+.sk:hover{
+    box-shadow: 0 8px 10px rgba(244, 94, 149, 0.913);
+    background-color:rgb(205, 226, 241);
+}
+.edu h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
 }
