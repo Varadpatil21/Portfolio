@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
+    transition: all 0.2s linear;
 }
 .navbar{
     background-color: rgba(240, 232, 232, 0.913);
@@ -58,11 +59,11 @@ header .navbar ul li a:hover {
     
     height: 700px;
 } */
-#section4{
+/* #section4{
     background-color:blueviolet;
     
     height: 700px;
-}
+} */
 #section5{
     background-color:yellow;
    
@@ -220,8 +221,78 @@ header .navbar ul li a:hover {
     box-shadow: 0 8px 10px rgba(244, 94, 149, 0.913);
     background-color:rgb(205, 226, 241);
 }
-.edu h2{
-    text-align: center;
+#head{    text-align: center;
     font-size: 2rem;
     font-weight: 600;
+}
+
+.edu{
+    min-height: 100vh;
+    background-color: rgb(238, 194, 179);
+    
+}
+
+.educational{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin:60px 33px 32px 464px;
+    height: 50%;
+    flex-wrap: wrap;
+}
+
+.edu1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    background-color: lemonchiffon;
+    margin: 47px 109px 28px 0px;
+    padding: 18px 5px 21px 8px;
+    border-radius: 10px;
+}
+
+.imge{
+    height: 217px;
+    width: 229px;
+}
+
+.edudiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.educontent{
+    margin-left: 15px;
+    padding: 46px 0px;
+}
+
+.course{
+    margin-bottom: 10px;
+    color: darkred;
+    margin-top: -27px;
+}
+.institute{
+    margin-bottom: 10px;
+    color: rgb(0, 30, 255);
+}
+
+.edudiv h4{
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+
+.edudiv p{
+    background-color:rgb(186, 239, 80);
+    border-radius: 15px;
+    padding:5px 5px;
+}
+
+.edu1:hover{
+    box-shadow: 0px 8px 10px  rgb(249, 230, 61);
 }
