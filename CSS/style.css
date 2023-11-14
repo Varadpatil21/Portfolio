@@ -51,10 +51,7 @@ header .navbar ul li a:hover {
     background-color: rgba(212, 247, 245, 0.717);
     height: 700px;
 }
-/* #section7{
-    background-color: rgb(232, 3, 220);
-    height: 700px;
-} */
+
 #me{
     background-color: chocolate;
 }
@@ -105,6 +102,10 @@ header .navbar ul li a:hover {
     padding: 4px 13px;
     font-size: 1.5rem;
     background-color: rgb(97, 248, 233);
+}
+
+#me:hover{
+    background-color: darkcyan;
 }
 .heading{
   text-align: center;
@@ -230,6 +231,7 @@ header .navbar ul li a:hover {
     margin: 47px 109px 28px 0px;
     padding: 18px 5px 21px 8px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .imge{
@@ -272,6 +274,7 @@ header .navbar ul li a:hover {
 
 .edu1:hover{
     box-shadow: 0px 8px 10px  rgb(249, 230, 61);
+    background-color: rgb(200, 235, 235);
 }
 
 .work{
@@ -288,22 +291,30 @@ header .navbar ul li a:hover {
 
 .workcard{
   
-   width: 200px;
+   width: 225px;
     margin: 5px 5px;
     border: 1px solid black;
     border-radius: 10px;
+    cursor: pointer;
 }
+
+.workcard:hover,.workcard1:hover,.workcard2:hover{
+    box-shadow: 0 8px 10px rgba(243, 212, 159, 0.913);
+    background-color: rgba(238, 234, 197, 0.808);
+  
+ }
 
 .workcard1{
     width: 285px;
     margin: 5px 5px;
     border: 1px solid black;
     border-radius: 10px;
+    cursor: pointer;
 
 }
 #workimg{
     height: 200px;
-    width:197px;
+    width:222px;
 }
 
 #workimg1{
@@ -318,7 +329,7 @@ header .navbar ul li a:hover {
     margin: 5px 5px;
     border: 1px solid black;
     border-radius: 10px;
-
+cursor: pointer;
 }
 #workimg2{
     height:230px;
@@ -471,3 +482,4 @@ footer p {
     text-decoration: none;
     font-size: 20px;
 }
+
