@@ -179,6 +179,7 @@ header .navbar ul li a:hover {
     height: 50%;
     background-color:rgba(249, 245, 125, 0.575);
     border-radius: 10px;
+    padding: auto;
 }
 
 .sk{
